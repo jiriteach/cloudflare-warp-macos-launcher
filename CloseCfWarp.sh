@@ -53,5 +53,4 @@ checkAndKillGUIProcess
 unloadDaemon
 
 echo -e "Closing CfWARP Complete!\n"
-
-exit 0
+killall Terminal

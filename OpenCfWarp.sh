@@ -21,4 +21,4 @@ DAEMON_BINARY_PATH="/Applications/Cloudflare WARP.app"
 loadDaemonAndApplication
 
 echo -e "Loading CfWARP Complete!\n"
-exit 0
+killall Terminal
