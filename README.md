@@ -1,7 +1,7 @@
 # Cloudflare WARP (CfWARP) Launcher - MacOS
 
 Scripts to launch and close the Cloudflare WARP application on MacOS. 
-The application does not currently support exiting/closing the application. These scripts provide the ability to easily launch and close the application.
+The application does not currently support exiting/closing the application when using it via a team and Cloudflare Zero Trust. These scripts provide the ability to easily launch and close the application.
 
 ## Files & Information
 OpenCfWarp.sh - Opens Cloudflare WARP application on MacOS. Uses terminal and will prompt for sudo credentials.
