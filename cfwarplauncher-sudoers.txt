@@ -1,0 +1,5 @@
+%admin ALL = (ALL) NOPASSWD: /bin/launchctl load -w /Library/LaunchDaemons/com.cloudflare.1dot1dot1dot1.macos.warp.daemon.plist
+%admin ALL = (ALL) NOPASSWD: /usr/bin/open -a /Applications/Cloudflare WARP.app
+%admin ALL = (ALL) NOPASSWD: /bin/launchctl unload -w /Library/LaunchDaemons/com.cloudflare.1dot1dot1dot1.macos.warp.daemon.plist
+%admin ALL = (ALL) NOPASSWD: /usr/bin/pkill -x "CloudflareWARP"
+%admin ALL = (ALL) NOPASSWD: /usr/bin/pkill -x "Cloudflare WARP"
