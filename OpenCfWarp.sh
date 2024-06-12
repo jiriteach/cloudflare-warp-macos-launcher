@@ -3,8 +3,8 @@ set -u
 
 clear
 echo -e "--------------------------------------------------------"
-echo -e "Cloudflare (Cf) WARP Launcher 1.1 ..."
-echo -e "-- Developed By Jithen Singh (administrator@se7en.co.nz)"
+echo -e "Cloudflare (Cf) WARP MacOS Launcher 1.2 ..."
+echo -e "-- Developed By Jithen Singh (jxs@s7n.dev)"
 echo -e "--------------------------------------------------------\n"
 
 loadDaemonAndApplication() {
