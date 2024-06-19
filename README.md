@@ -2,18 +2,35 @@
 
 # Cloudflare WARP (Zero Trust) MacOS Launcher
 
-MacOS Scripts to launch and close the Cloudflare WARP (Zero Trust) client.
+`Updated 20/06/2024` - Scripts replaced with MacOS applications created using Automator on MacOS. This provides a more native and cleaner experience. Previous scripts can be found under `/scripts`.
 
-The latest version of the client can be downloaded from - https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/download-warp/
+MacOS applications to launch and close the Cloudflare WARP (Zero Trust) client.
 
-Once installed - the Cloudflare WARP (Zero Trust) client does not support close when configured to use Cloudflare Zero Trust. These scripts provide the ability to easily launch and close the client on MacOS.
+The Cloudflare WARP (Zero Trust) client does not support close when configured to use Cloudflare Zero Trust. 
 
-## Files & Information
-* `OpenCfWarp.sh` - Opens Cloudflare WARP (Zero Trust) client. Uses terminal to execute then open and will prompt for `sudo` credentials.
+These applications provide the ability to easily launch and close the client on MacOS.
 
-* `CloseCfWarp.sh` - Closes Cloudflare WARP client. Uses terminal to execute the close and will prompt for `sudo` credentials.
+## Requirements
 
-* `CfWARP Launcher.zip` - Directory with the above scripts and custom icons. Extract this to `/applications`.
+* Cloudflare WARP client to be installed under `Applications`.  
+The latest version of the client can be downloaded from - https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/download-warp/.
 
-* `cfwarplauncher-sudoers.txt` - Used to bypass the need to enter `sudo` credentials everytime. Create a file `sudo touch /etc/sudoers.d/cfwarplauncher` and add the contents of this txt file.
-When the scripts are launched - there will not be a prompt. NOTE - You cannot copy this file as it has to have the correct ownership so create the file first - `sudo touch /etc/sudoers.d/cfwarplauncher`.
+* `resources/cfwarplauncher-sudoers.txt` - Used to bypass the need to enter `sudo` credentials everytime. Create a file `sudo touch /etc/sudoers.d/cfwarplauncher` and add the contents of this txt file.
+When the applcation are launched - there will not be a prompt.  
+NOTE - You cannot copy this file as it has to have the correct ownership so create the file first - `sudo touch /etc/sudoers.d/cfwarplauncher`.
+
+## Setup
+* `applications/Cloudflare Tools` - Contains two applications.  
+`Cloudflare WARP Open.app`  
+`Cloudflare WARP Close.app`  
+
+Copy the `Cloudflare Tools` folder to `Applications` on MacOS.
+
+* `applications/Cloudflare WARP Launcher.app` - The launcher which launches Cloudflare WARP via the open/close applications under Cloudflare Tools.
+
+Copy the `Cloudflare WARP Launcher.app` to `Applications` on MacOS.
+
+## Screenshots
+
+![Alt text](/screenshots/screenshot%202024-06-20%20at%2000.38.49.png?raw=true "Cloudflare WARP Launcher")
+![Alt text](/screenshots/screenshot%202024-06-20%20at%2000.43.08.png?raw=true "Cloudflare WARP Launcher")
