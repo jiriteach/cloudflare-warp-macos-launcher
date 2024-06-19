@@ -54,14 +54,14 @@ If the Cloudlare WARP Launcher does not launch or the following message is displ
 Attempt to open `Cloudflare WARP Launcher.app` and MacOS will display the following security warning -   
 
 <p align="center">
-  <img src="/screenshots/screenshot%202024-06-20%20at%2010.30.16.png?raw=true" width="50%" />
+  <img src="/screenshots/screenshot%202024-06-20%20at%2010.30.16%20AM.png?raw=true" width="50%" />
 </p>
 
 - Click `OK`
 - Goto `Settings` > `Privacy and Security` and scroll down to `Security`  
 
 <p align="center">
-  <img src="/screenshots/screenshot%202024-06-20%20at%2010.30.31.png?raw=true" width="50%" />
+  <img src="/screenshots/screenshot%202024-06-20%20at%2010.30.31%20AM.png?raw=true" width="50%" />
 </p>
 
 - Click `Open Anyway`
