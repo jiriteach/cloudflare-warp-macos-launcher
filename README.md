@@ -32,5 +32,5 @@ Copy the `Cloudflare WARP Launcher.app` to `Applications` on MacOS.
 
 ## Screenshots
 
-![Alt text](/screenshots/screenshot%202024-06-20%20at%2000.38.49.png?raw=true "Cloudflare WARP Launcher")
-![Alt text](/screenshots/screenshot%202024-06-20%20at%2000.43.08.png?raw=true "Cloudflare WARP Launcher")
+<img src="/screenshots/screenshot%202024-06-20%20at%2000.38.49.png?raw=true" width="50%" />
+<img src="/screenshots/screenshot%202024-06-20%20at%2000.43.08.png?raw=true" width="50%" />
