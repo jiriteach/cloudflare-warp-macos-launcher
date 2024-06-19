@@ -4,11 +4,11 @@
 
 `Updated 20/06/2024` - Scripts replaced with MacOS applications created using Automator on MacOS. This provides a more native and cleaner experience. Previous scripts can be found under `/scripts`.
 
-MacOS applications to launch and close the Cloudflare WARP (Zero Trust) client.
+<img src="/resources/cloudflarewarplauncher-icon.png" width="150">  
 
-The Cloudflare WARP (Zero Trust) client does not support close when configured to use Cloudflare Zero Trust. 
+MacOS applications to launch and close the Cloudflare WARP (Zero Trust) client. 
 
-These applications provide the ability to easily launch and close the client on MacOS.
+The Cloudflare WARP (Zero Trust) client does not support close when configured to use Cloudflare Zero Trust. These applications provide the ability to easily launch and close the client on MacOS.
 
 ## Requirements
 
