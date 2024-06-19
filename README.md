@@ -39,6 +39,8 @@ Copy the `Cloudflare WARP Launcher.app` to `Applications` on MacOS.
 
 ## Troubleshooting
 
+### Launching and security
+
 Since these are not created as fully published MacOS applications, there could be issues with launching and compatibility dependant on the MacOS version running.
 
 If the Cloudlare WARP Launcher does not launch or the following message is displayed - 
@@ -66,3 +68,12 @@ Attempt to open `Cloudflare WARP Launcher.app` and MacOS will display the follow
 
 - Click `Open Anyway`
 - Repeat this process for `Cloudflare WARP Open.app` and `Cloudflare WARP Close.app`
+
+### Application icons
+
+Since these are not created as fully published MacOS applications, application icons do not seem to carry across.
+
+- Open `cloudflarewarplauncher-icon` in `Preview
+- `Ctrl-A + Ctrl-C` to copy the image
+- `Get Info` on `Cloudflare WARP Launcher.app`
+- Click the icon in the top left and `Ctrl-V` to paste the copied image. This updates the `Cloudflware WARP Launch.app` applicationto show the icon. 
