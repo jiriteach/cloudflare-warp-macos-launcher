@@ -37,3 +37,32 @@ Copy the `Cloudflare WARP Launcher.app` to `Applications` on MacOS.
   <img src="/screenshots/screenshot%202024-06-20%20at%2000.43.08.png?raw=true" width="50%" />
 </p>
 
+## Troubleshooting
+
+Since these are not created as fully published MacOS applications, there could be issues with launching and compatibility dependant on the MacOS version running.
+
+If the Cloudlare WARP Launcher does not launch or the following message is displayed - 
+```
+"Cloudflare WARP Launcher" is damaged and can't be open. You should move it to the Trash.
+``` 
+
+- Open `Automator` on MacOS.
+- Open `Cloudflare WARP Launcher.app` in `Automator` and `Run`.
+- Save and exit `Automator`
+- Repeat this process for `Cloudflare WARP Open.app` and `Cloudflare WARP Close.app`
+
+Attempt to open `Cloudflare WARP Launcher.app` and MacOS will display the following security warning -   
+
+<p align="center">
+  <img src="/screenshots/screenshot%202024-06-20%20at%2010.30.16.png?raw=true" width="50%" />
+</p>
+
+- Click `OK`
+- Goto `Settings` > `Privacy and Security` and scroll down to `Security`  
+
+<p align="center">
+  <img src="/screenshots/screenshot%202024-06-20%20at%2010.30.31.png?raw=true" width="50%" />
+</p>
+
+- Click `Open Anyway`
+- Repeat this process for `Cloudflare WARP Open.app` and `Cloudflare WARP Close.app`
