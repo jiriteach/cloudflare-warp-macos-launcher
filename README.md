@@ -33,7 +33,7 @@ Copy the `Cloudflare WARP Launcher.app` to `Applications` on MacOS.
 ## Screenshots
 
 <p align="center">
-  <img src="/screenshots/screenshot%202024-06-20%20at%2000.38.49.png?raw=true" width="50%" />
+  <img src="/screenshots/screenshot%202024-06-20%20at%2009.50.56.png?raw=true" width="50%" />
   <img src="/screenshots/screenshot%202024-06-20%20at%2000.43.08.png?raw=true" width="50%" />
 </p>
 
