@@ -77,3 +77,18 @@ Since these are not created as fully published MacOS applications, application i
 - `Ctrl-A + Ctrl-C` to copy the image
 - `Get Info` on `Cloudflare WARP Launcher.app`
 - Click the icon in the top left and `Ctrl-V` to paste the copied image. This updates the `Cloudflware WARP Launch.app` applicationto show the icon. 
+
+### Latest version check
+
+If the Cloudflare WARP Launcher is opened in `Automator` and `Run` - the url for the latest version check seems to become invalid. If this occurs - remove the 
+existing url -
+
+```
+set latestCloudflareWarpVersion to (do shell script "url")
+```
+
+Replace `url` with - 
+
+```
+curl -Ssk https://api.appcenter.ms/v0.1/public/sparkle/apps/87d9992a-351c-44a9-849b-3f9a89d63d18 | tr '<|/' '\n' | grep ^title | awk '/Version/ {print $2, $NF}' | awk 'NR==1{print $1}'
+```
